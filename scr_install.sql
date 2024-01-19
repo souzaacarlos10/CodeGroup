@@ -6,11 +6,11 @@
 
  Objetivo:
 
-  Controle de Versão :
+  Controle de Versao :
    ---------------------------------------------------------------------------------------------------
   | Versao        | Autor     | Projeto                                              | Descricao      |
   `---------------------------------------------------------------------------------------------------
-  | a-180124-1000 | ACarlos   | Pedidos CodGroup                                     | Criação        |
+  | a-180124-1000 | ACarlos   | Pedidos CodGroup                                     | Criacao        |
   `---------------------------------------------------------------------------------------------------
 */
 
@@ -42,8 +42,8 @@ prompt trg_atualizatotalpedido.sql
 @@trg_atualizatotalpedido.sql
 
 -- Functions
-prompt fnc_totalpedido
-@@fnc_totalpedido
+prompt fnc_totalpedido.sql
+@@fnc_totalpedido.sql
 
 -- Grants
 --GRANT EXECUTE ON prc_trataexcecao TO owner;
